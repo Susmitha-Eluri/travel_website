@@ -1,0 +1,26 @@
+
+body{
+    background-color: azure;
+    
+}
+
+p{
+     background-color:  rgb(158, 252, 252);
+     font-size: large;
+     font-family: fantasy;
+}
+
+#logo{
+    width: 30px;
+}
+
+#img1{
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 5%;
+}
+h4{
+    margin-left:5%;
+}

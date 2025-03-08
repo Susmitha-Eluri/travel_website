@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry form</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>  <center>Enquiry Form</center></h1>
+    <p id="fill">Please fill the form below </p>
+
+    <form action="thank.html" method="get">
+        <label for = "name"><b>Name:</b></label><br>
+        <input type ="text" placeholder="Enter Name" name="USERNAME" required><br>
+        <label for ="moblie no."><b>Mobile number:</b></label><br>
+        <input type ="number" placeholder="Enter mobile no." name="USERMONO." required><br>
+        <label for = "email"><b>E-mail</b></label><br>
+        <input type = "email" placeholder="Enter EmailID" name="USEREMAIL" required><br><br>
+        <p><b>Select your gender</b></p>
+        <input type="radio" name="Gender" value="This person is female">Female
+        <input type="radio" name="Gender" value="This person is male">Male<br><br>
+        <input type="submit" placeholder="Submit">
+        <input type="reset" placeholder="Clear">
+    </form>
+    
+</body>
+</html>
